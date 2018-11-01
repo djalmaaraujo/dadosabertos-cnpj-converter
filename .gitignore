@@ -1,2 +1,3 @@
-data/*
-converted/*
+data/*.txt
+converted/*.txt
+.DS_Store

@@ -15,6 +15,7 @@ OU
 O arquivo final será gerado em csv, como por exemplo:
 
 ```bash
+CNPJ,NAME,STATE
 14583269000152,ESCOLINHA DE FUTEBOL ESPORTE SAUDE E LAZER,AC
 ```
 

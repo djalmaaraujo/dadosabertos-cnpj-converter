@@ -16,7 +16,7 @@ INSERT INTO companies (cnpj, name, state) VALUES (14583269000152, 'ESCOLINHA DE 
 2. Coloque todos os arquivos na pasta `data` na raiz do projeto
 3. Execute:
 ```bash
-node index.js
+node index.js UF # Ex: PE ou SP
 ```
 4. Este processo deve demorar bastante. Estados como SP e RJ possuem muitos dados.
 
@@ -34,3 +34,7 @@ CREATE TABLE IF NOT EXISTS public.companies (
 	PRIMARY KEY(cnpj)
 );
 ```
+
+# Onde importar?
+
+Você pode usar AWS ou Google cloud. No google cloud, você pode subir os arquivos convertidos para um bucket, e via Cloud Storage (no nosso caso Postgres), o próprio painel possui uma ferramenta de importar direto do bucket.
